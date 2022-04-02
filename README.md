@@ -1,6 +1,8 @@
 # mirai_plugin_xiran_undercover
 [Mirai Console](https://github.com/mamoe/mirai-console)插件
 
+简易实现谁是卧底小游戏
+
 插件具体使用方法请查看[Mirai Console](https://github.com/mamoe/mirai-console)手册
 
 
