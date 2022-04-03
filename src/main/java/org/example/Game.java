@@ -147,6 +147,9 @@ public class Game {
 
             text=text.substring("投票".length());
             try {
+                while (text.charAt(0)==' ') {
+                    text=text.substring(1);
+                }
                 int i = Integer.parseInt(text);
                 player_list.get(i-1).votes++;
                 crowd.sendMessage(player_list.get(i-1).id.getNick()+"被投了一票!");
