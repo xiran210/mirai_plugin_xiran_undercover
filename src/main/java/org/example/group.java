@@ -57,7 +57,7 @@ public class group {
             else if(game.is_in_game(sender)){
                 crowd.sendMessage("你已经在游戏中");
             }
-            else if(sender.getId()==game.author.getId()){
+            else if(game.author!=null && sender.getId()==game.author.getId()){
                 crowd.sendMessage("你已经是出题人，无法加入游戏");
             }
             else if (game.player_list.size()>=10){
